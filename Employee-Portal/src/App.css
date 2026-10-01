@@ -1,0 +1,58 @@
+/* Smoothly fade active navigation buttons */
+button {
+  transition: background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Custom layout utility to keep the main container scrollbar clean and modern */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1; /* slate-300 matching theme */
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8; /* slate-400 matching theme */
+}
+
+/* Smoothly fade active navigation buttons */
+button {
+  transition: background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Custom layout utility to keep the main container scrollbar clean and modern */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1; /* slate-300 matching theme */
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8; /* slate-400 matching theme */
+}
+
+.ProfileDropdown{
+  margin-left: -78px;
+  border: 1px solid #e5e7eb; /* Tailwind's gray-300 */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Tailwind's shadow-md */
+  background-color: #ffffff; /* Tailwind's white */
+  border-radius: 0.375rem; /* Tailwind's rounded-md */
+  padding: 0.5rem; /* Tailwind's p-2 */
+  width: 18rem; /* Tailwind's w-72 */
+}
+

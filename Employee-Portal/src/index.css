@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+/* Global Layout Reset styling to prevent double scrolling across browsers */
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+.calendar-control {
+  height: 29px;
+  min-width: 57px;
+  border: 1px solid #d1d5db;
+  border-radius: 9999px;
+  background: #f8f8f8;
+  padding: 0 12px;
+  color: #46546a;
+  font-size: 12px;
+}
+
+.calendar-control:hover {
+  background: #eceff2;
+}
+
+@media (max-width: 480px) {
+  .calendar-control {
+    min-width: 0;
+    padding: 0 9px;
+  }
+}
+
+
